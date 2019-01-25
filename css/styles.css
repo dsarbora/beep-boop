@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+  background: linear-gradient(45deg, black, red);
+}
+.container{
+  color: #DDDDDD
+}
+button{
+  background-color: beige;
+  color: red;
+}
+#Dave{
+  float: left;
+  width: 50%
+
+}
+#Hal{
+  float: right;
+  position: fixed;
+}
+#formContainer{
+  top: 30px;
+  margin: 30px, 0px, 0px, 0px;
+  padding: 10px, 10px, 10px, 10px;
+}
+h1{
+  color: red;
+  font-family: 'Audiowide', cursive;
+}
+h3{
+  color: black;
+  display: none;
+  position: fixed;
+  font-family: 'Audiowide', cursive;
+  font-weight: bold;
+
+}
+.jumbotron{
+  color: #AF0000;
+}
+#pacMan{
+  margin-top: 30px;
+  display: block;
+}
+.hidden{
+  display: none;
+}
