@@ -24,7 +24,8 @@ button{
   padding: 10px, 10px, 10px, 10px;
 }
 h1{
-  color: red;
+  font-size: 40px;
+  color: #AF0000 !important;
   font-family: 'Audiowide', cursive;
 }
 h3{
@@ -34,11 +35,8 @@ h3{
   font-family: 'Audiowide', cursive;
   font-weight: bold;
 
-}
-.jumbotron{
-  color: #AF0000;
-}
-#pacMan{
+}.
+#pacman{
   margin-top: 30px;
   display: block;
 }

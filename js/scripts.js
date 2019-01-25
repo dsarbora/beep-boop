@@ -1,5 +1,4 @@
 var halFunction = function(number){
-  debugger;
   if (number){
     for(var i = 0; i <= number; i++){
       var iStr = i.toString();
@@ -19,27 +18,16 @@ var halFunction = function(number){
     };
   }
   else{
-    alert("I'm sorry, I can't do that John")
+    alert("I'm sorry John, I can't do that.")
   };
 };
-
-  // if(parseInt(number) % 3 === 0){
-  //   return "I'm sorry Dave, I'm afraid I can't do that"
-  // }
-  //
-  // numArray = number.split('')
-  // numerals = numArray.map(function(numeral){
-  //   return parseInt(numeral);
-  //
-  // });
-  //
-  // alert("Please enter a number");
 
 
 $(function(){
   $("#artificialLifeForm").submit(function(event){
     resultArray = []
     $("#subtitle").show();
+    $("#pacman").removeClass();
     event.preventDefault();
     var number = parseInt($("#number").val());
     var result = halFunction(number);
