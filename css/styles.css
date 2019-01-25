@@ -28,6 +28,9 @@ h1{
   color: #AF0000 !important;
   font-family: 'Audiowide', cursive;
 }
+h1:hover{
+  rubberBand;
+}
 h3{
   color: black;
   display: none;
