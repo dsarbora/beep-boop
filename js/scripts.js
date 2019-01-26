@@ -4,7 +4,7 @@ var halFunction = function(number){
       var iStr = i.toString();
       var iArray = iStr.split('');
       if(i !== 0 && i % 3 === 0){
-        resultArray.push("I'm sorry Dave, I can't do that.")
+        resultArray.push("I'm sorry Dave, I'm afraid I can't do that.")
       }
       else if(iArray.includes("1")){
         resultArray.push("Boop!");
@@ -18,7 +18,7 @@ var halFunction = function(number){
     };
   }
   else{
-    alert("I'm sorry John, I can't do that.")
+    alert("I'm sorry John, I'm afraid I can't do that.")
   };
 };
 
