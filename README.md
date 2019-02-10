@@ -10,11 +10,11 @@ _Clicking the "submit" button on this website basically runs a function that cou
 
 ## Specifications
 
-*_If input can be parsed to an integer, the program counts to the input modifying each number along the way_
-*_If number is divisible by 3, output is "I'm sorry Dave, I'm afraid I can't do that."_
-*_If number includes a 1 and is not divisible by 3, output is "Boop!"_
-*_If number includes a 0 but not a 1, and is not divisible by 3, output is "Beep!"_
-*_If number is not divisible by 3, and contains neither 0 nor 1, the number is printed as is._
+* _If input can be parsed to an integer, the program counts to the input modifying each number along the way_
+* _If number is divisible by 3, output is "I'm sorry Dave, I'm afraid I can't do that."_
+* _If number includes a 1 and is not divisible by 3, output is "Boop!"_
+* _If number includes a 0 but not a 1, and is not divisible by 3, output is "Beep!"_
+* _If number is not divisible by 3, and contains neither 0 nor 1, the number is printed as is._
 
 ## Setup/Installation Requirements
 
