@@ -24,6 +24,7 @@ var halFunction = function(number){
 
 
 $(function(){
+  debugger;
   $("#artificialLifeForm").submit(function(event){
     resultArray = []
     $("#subtitle").show();

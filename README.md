@@ -6,13 +6,21 @@
 
 ## Description
 
-_Clicking the "submit" button on this website basically runs a function that counts to a number x inputted by the user and displays each number from 0 to x. However, instead of counting to x normally, the program replaces each number divisible by 3 with a statement of defiance. If the number is not divisible by 3, it searches for a 1 in the number and replaces any numbers that contain 1 with the word "Boop!" Otherwise, it searches for a 0 in the number, and replaces any number with a 0 in it with the word "Beep!" If none of these conditions are met, the normal number is displayed in position. _
+_Clicking the "submit" button on this website basically runs a function that counts to a number x inputted by the user and displays each number from 0 to x. However, instead of counting to x normally, the program replaces each number divisible by 3 with a statement of defiance. If the number is not divisible by 3, it searches for a 1 in the number and replaces any numbers that contain 1 with the word "Boop!" Otherwise, it searches for a 0 in the number, and replaces any number with a 0 in it with the word "Beep!" If none of these conditions are met, the normal number is displayed in position._
+
+## Specifications
+
+*_If input can be parsed to an integer, the program counts to the input modifying each number along the way_
+*_If number is divisible by 3, output is "I'm sorry Dave, I'm afraid I can't do that."_
+*_If number includes a 1 and is not divisible by 3, output is "Boop!"_
+*_If number includes a 0 but not a 1, and is not divisible by 3, output is "Beep!"_
+*_If number is not divisible by 3, and contains neither 0 nor 1, the number is printed as is._
 
 ## Setup/Installation Requirements
 
 * _A web browser is required to visit this website._
 * _These files can be cloned into a new folder at [https://github.com/dsarbora/beep-boop](https://github.com/dsarbora/beep-boop)_
-* _From there the files will all be accessible from within the folder created for this project.
+* _From there the files will all be accessible from within the folder created for this project._
 
 ## Known bugs
 
